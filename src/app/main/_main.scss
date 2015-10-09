@@ -3,7 +3,12 @@
   width: 76rem;
 
   .table-header{
-    font-weight: 600;
+    margin-bottom: 0.8rem;
+    .th {
+      background: #7A7A7A;
+      font-weight: 600;
+      padding: 0.3rem 0.8rem;
+    }
   }
 
 }
