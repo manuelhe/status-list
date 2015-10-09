@@ -23,6 +23,11 @@
       1: 'result-fail',
       2: 'result-auto',
       3: 'result-succeed'
+    })
+
+    .constant('itemTypes', {
+      'firewall': {label: 'Firewall', icon: 'fa-fire'},
+      'build': {label: 'Build', icon: 'fa-desktop'}
     });
 
 }());
