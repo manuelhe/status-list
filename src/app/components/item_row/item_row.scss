@@ -1,21 +1,53 @@
 .component--item-row {
+
+  .header {
+    .id {
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+      i {
+        margin-right: 1rem;
+        text-align: center;
+        width: 16px;
+      }
+    }
+  }
+
   .item-content {
     border: 1px solid;
     font-size: 0.9rem;
     padding: 0.3rem 0;
     margin-bottom: 0.5rem;
+  }
+
+  .item-pending {
+    color: $color-gray-60;
     .header {
       .id {
-        cursor: pointer;
+        cursor: default;
         &:hover {
-          text-decoration: underline;
-        }
-        i {
-          margin-right: 1rem;
-          text-align: center;
-          width: 16px;
+          text-decoration: none;
         }
       }
     }
   }
+  .item-running {
+    color: $color-secondary-2-1;
+    border-color: $color-secondary-2-2;
+    background: $color-secondary-2-3;
+  }
+  .firewall-accepted,
+  .build-succeed {
+    color: $color-complement-1;
+    border-color: $color-complement-2;
+    background: $color-complement-3;
+  }
+  .firewall-rejected,
+  .build-fail {
+    color: $color-secondary-1-1;
+    border-color: $color-secondary-1-2;
+    background: $color-secondary-1-3;
+  }
+
 }
