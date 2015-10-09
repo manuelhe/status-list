@@ -12,9 +12,10 @@
           item: '=',
           isSelected: '&'
         },
-        controller: function ($scope, statusCodes) {
+        controller: function ($scope, statusCodes, itemTypes) {
           $scope.item.start_time = moment($scope.item.start_time);
           $scope.status = statusCodes[$scope.item.status] || statusCodes[1];
+          $scope.typeDict = itemTypes[$scope.item.type];
         }
       };
 

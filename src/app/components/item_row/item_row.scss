@@ -1,8 +1,21 @@
 .component--item-row {
   .item-content {
     border: 1px solid;
-    margin-bottom: 0.5rem;
-    padding: 0.3rem 0;
     font-size: 0.9rem;
+    padding: 0.3rem 0;
+    margin-bottom: 0.5rem;
+    .header {
+      .id {
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+        i {
+          margin-right: 1rem;
+          text-align: center;
+          width: 16px;
+        }
+      }
+    }
   }
 }
