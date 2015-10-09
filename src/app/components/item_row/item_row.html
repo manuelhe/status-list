@@ -1,9 +1,10 @@
 <div class="component--item-row">
   <div class="item-content row {{ item.type }} {{ status.style }}"
-       ng-class="{'selected': 'isSelected'}">
+       ng-class="{selected: isSelected()}">
     <div class="header row">
       <div class="id column colspan-2"
-           title="{{ typeDict.label }}">
+           title="{{ typeDict.label }}"
+           ng-click="selectItem()">
         <i class="fa {{typeDict.icon}}"></i>
         <span>{{ item.id }}</span>
       </div>
@@ -11,8 +12,13 @@
       <div class="column colspan-2 center">{{ item.start_time.format('l h:mma') }}</div>
       <div class="column colspan-1 center">{{ status.label }}</div>
       <div class="column colspan-6 paz"
+           ng-hide="isSelected()"
            widgets-status
            data-item="item"></div>
+    </div>
+    <div class="widgets"
+         ng-show="isSelected()">
+      Here comes the widgets!
     </div>
   </div>
 </div>
