@@ -5,7 +5,14 @@
   <div class="tests row">
     <div class="graph column colspan-6">
       <span class="passed">{{ data.passed }}</span>
-      <span class="failed">{{ data.total - data.passed }}</span>
+      <span class="failed"
+            ng-if="data.total - data.passed > 0">{{ data.total - data.passed }}</span>
+      <div class="radial-graph"
+           radial-graph
+           data-value="percentualValue"
+           data-size="90"
+           data-strokewidth="25">
+      </div>
     </div>
     <div class="percentual column colspan-6">
       <div class="value {{ getLevelStyle(percentualValue) }}">
