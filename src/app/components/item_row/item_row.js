@@ -30,9 +30,10 @@
             if ($scope.isSelected()) {
               item = {};
             }
-
             $scope.$emit('item:selected', item);
           };
+
+          $scope.statusCodes = statusCodes;
 
         }
       };
