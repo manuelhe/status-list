@@ -9,11 +9,11 @@
         $scope.dataList = data;
       });
 
-      $scope.selectedItem = false;
+      $scope.selectedItem = {};
 
-      $scope.isSelected = function (id) {
-        return id === $scope.selectedItem;
-      };
+      $scope.$on('item:selected', function (event, data) {
+        $scope.selectedItem = data;
+      });
 
     });
 
