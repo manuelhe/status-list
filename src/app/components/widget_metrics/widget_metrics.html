@@ -1,0 +1,47 @@
+<div class="component--widget-metrics">
+
+  <div class="title">Metrics</div>
+
+  <div class="row results">
+    <div class="column colspan-6 trend-{{ getTrendStyle('test') }}">
+      <div class="value">
+        <i class="fa fa-arrow-circle-o-{{ getTrendStyle('test')}}"></i>
+        {{data.test.current}}
+      </div>
+      <div class="label">
+        Test
+      </div>
+    </div>
+    <div class="column colspan-6 trend-{{ getTrendStyle('maintainability') }}">
+      <div class="value">
+        <i class="fa fa-arrow-circle-o-{{ getTrendStyle('maintainability')}}"></i>
+        {{data.maintainability.current}}
+      </div>
+      <div class="label">
+        Maintainability
+      </div>
+    </div>
+  </div>
+
+  <div class="row results">
+    <div class="column colspan-6 trend-{{ getTrendStyle('security') }}">
+      <div class="value">
+        <i class="fa fa-arrow-circle-o-{{ getTrendStyle('security')}}"></i>
+        {{data.security.current}}
+      </div>
+      <div class="label">
+        Security
+      </div>
+    </div>
+    <div class="column colspan-6 trend-{{ getTrendStyle('workmanship') }}">
+      <div class="value">
+        <i class="fa fa-arrow-circle-o-{{ getTrendStyle('workmanship')}}"></i>
+        {{data.workmanship.current}}
+      </div>
+      <div class="label">
+        Workmanship
+      </div>
+    </div>
+  </div>
+
+</div>
