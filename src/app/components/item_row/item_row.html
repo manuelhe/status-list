@@ -1,0 +1,14 @@
+<div class="component--item-row">
+  <div class="item-content row {{status.style}}"
+       ng-class="{'selected': 'isSelected'}">
+    <div class="header row">
+      <div class="id column colspan-3">{{ item.id }}</div>
+      <div class="column colspan-1 center">{{ item.owner || '&nbsp;' }}</div>
+      <div class="column colspan-2 center">{{ item.start_time.format('l h:mma') }}</div>
+      <div class="column colspan-1 center">{{ status.label }}</div>
+      <div class="column colspan-5"
+           widgets-status
+           data-item="item"></div>
+    </div>
+  </div>
+</div>

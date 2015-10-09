@@ -1,0 +1,22 @@
+
+.row {
+  display: table;
+  width: 100%;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+}
+
+.column {
+  float: left;
+  padding-left: 0.83333rem;
+  padding-right: 0.83333rem;
+  width: 100%;
+}
+
+@for $i from 1 through 12 {
+  .colspan-#{$i} {
+    width: 100% * ($i / 12);
+  }
+}

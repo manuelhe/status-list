@@ -1,0 +1,8 @@
+<div class="component--widgets-status row">
+  <div ng-repeat="widget in widgets"
+       class="column colspan-3">
+    <div class="widget-status {{ widget.status.style }}"
+         title="{{ widget.name }} {{ widget.status.label }}">
+    </div>
+  </div>
+</div>

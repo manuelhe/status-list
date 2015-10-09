@@ -1,0 +1,26 @@
+.component--widgets-status {
+  .widget-status {
+    border: 1px solid $color-gray-40;
+    background: $color-gray-20;
+    border-radius: 18px;
+    height: 25px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 25px;
+  }
+  .widget-running {
+    &:before {
+      background: $color-secondary-2-1;
+      content: "";
+      display: block;
+      height: 100%;
+      width: 65%;
+    }
+  }
+  .widget-completed {
+    background: $color-complement-0;
+  }
+  .widget-fail {
+    background: $color-primary-3;
+  }
+}
