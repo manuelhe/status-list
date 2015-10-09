@@ -4,7 +4,7 @@
       "id": "Tenrox-R1_1235",
       "type": "build",
       "start_time": "2014-04-18 10:53:00",
-      "status": 4,
+      "status": 5,
       "metrics": {
         "status": 9,
         "test": {
@@ -75,19 +75,19 @@
         }
       },
       "build": {
-        "status": 8,
+        "status": 9,
         "time": "2014-04-18 10:58:32",
         "debug": true,
         "release": true
       },
       "unit_test": {
-        "status": 7,
+        "status": 9,
         "total": 152,
         "passed": 142,
         "coverage": 0.763
       },
       "functional_test": {
-        "status": 10,
+        "status": 9,
         "total": 6466,
         "passed": 4312,
         "coverage": 0.231
