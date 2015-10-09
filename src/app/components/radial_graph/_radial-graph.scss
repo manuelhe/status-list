@@ -1,0 +1,15 @@
+.radial-graph {
+  circle {
+    fill: $color-gray-20;
+    stroke: $color-secondary-1-0;
+    stroke-width: 9;
+  }
+  path {
+    fill: none;
+    stroke: $color-complement-0;
+    stroke-width: 9;
+    &.complete {
+      stroke: $color-complement-3;
+    }
+  }
+}
