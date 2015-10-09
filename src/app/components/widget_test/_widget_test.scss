@@ -1,0 +1,62 @@
+.component--widget-test {
+
+  .superior {
+    color: $color-complement-0;
+  }
+  .averange {
+    color: $color-secondary-1-0;
+  }
+  .borderline {
+    color: $color-primary-0;
+  }
+
+  .tests {
+    margin-bottom: 1rem;
+  }
+  .graph {
+    span {
+      font-size: 0.7rem;
+    }
+  }
+
+  .percentual {
+    text-align: center;
+    .value {
+      font-size: 2rem;
+      line-height: 1.8rem;
+    }
+    .label {
+      color: $color-gray-60;
+      font-size: 0.7rem;
+    }
+  }
+
+  .code-coverage {
+    background: $color-primary-1;
+    height: 35px;
+    line-height: 1rem;
+    margin: 0 0.3rem;
+    position: relative;
+    text-align: center;
+    .bar {
+      background: $color-complement-1;
+      content: "";
+      height: 35px;
+      position: absolute;
+      width: 0;
+    }
+    .value {
+      font-size: 1.1rem;
+      padding-top: 0.2rem;
+      position: relative;
+      z-index: 1;
+    }
+    .label {
+      color: $color-gray-80;
+      font-size: 0.7rem;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+}

@@ -28,11 +28,15 @@
                widget-build
                data-widget="item.build">
           </div>
-          <div class="column colspan-3 widget {{ statusCodes[item.unit_test.status].style }}">
-            3
+          <div class="column colspan-3 widget {{ statusCodes[item.unit_test.status].style }}"
+               widget-test
+               data-widget="item.unit_test"
+               data-title="Unit Test">
           </div>
-          <div class="column colspan-3 widget {{ statusCodes[item.functional_test.status].style }}">
-            4
+          <div class="column colspan-3 widget {{ statusCodes[item.functional_test.status].style }}"
+               widget-test
+               data-widget="item.functional_test"
+               data-title="Functional Test">
           </div>
         </div>
       </div>

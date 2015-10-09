@@ -1,0 +1,28 @@
+<div class="component--widget-test">
+
+  <div class="title">{{ title }}</div>
+
+  <div class="tests row">
+    <div class="graph column colspan-6">
+      <span class="passed">{{ data.passed }}</span>
+      <span class="failed">{{ data.total - data.passed }}</span>
+    </div>
+    <div class="percentual column colspan-6">
+      <div class="value {{ getLevelStyle(percentualValue) }}">
+        {{ percentualValue }}%
+      </div>
+      <div class="label">
+        tests passed
+      </div>
+    </div>
+  </div>
+
+  <div class="code-coverage">
+    <div class="bar" style="width:{{ data.coverage }}%"></div>
+    <div class="value {{ getLevelStyle(data.coverage) }}">
+      {{ data.coverage }}%
+    </div>
+    <div class="label">code covered</div>
+  </div>
+
+</div>

@@ -237,9 +237,9 @@
       },
       "functional_test": {
         "status": 9,
-        "total": 6466,
-        "passed": 4312,
-        "coverage": 0.231
+        "total": 738,
+        "passed": 712,
+        "coverage": 0.931
       },
       "result": {
         "style": 1,
@@ -280,15 +280,15 @@
       },
       "unit_test": {
         "status": 10,
-        "total": 152,
-        "passed": 142,
-        "coverage": 0.763
+        "total": 7392,
+        "passed": 5638,
+        "coverage": 0.893
       },
       "functional_test": {
         "status": 7,
-        "total": 6466,
-        "passed": 4312,
-        "coverage": 0.231
+        "total": 126,
+        "passed": 24,
+        "coverage": 0.491
       },
       "result": {
         "style": 1,

@@ -28,6 +28,24 @@
     .constant('itemTypes', {
       'firewall': {label: 'Firewall', icon: 'fa-fire'},
       'build': {label: 'Build', icon: 'fa-desktop'}
-    });
+    })
+
+    .constant('testCompletionLevels', [
+      {
+        from: 0,
+        to: 40,
+        style: 'borderline'
+      },
+      {
+        from: 41,
+        to: 70,
+        style: 'averange'
+      },
+      {
+        from: 71,
+        to: 100,
+        style: 'superior'
+      }
+    ]);
 
 }());
