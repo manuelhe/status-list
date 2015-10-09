@@ -1,6 +1,205 @@
 {
   "items": [
     {
+      "id": "GRolb-A3590X",
+      "type": "build",
+      "start_time": "2015-07-18 19:13:00",
+      "status": 1,
+      "metrics": {
+        "status": 7,
+        "test": {
+          "current": 64,
+          "previous": 50
+        },
+        "maintainability": {
+          "current": 53,
+          "previous": 30
+        },
+        "security": {
+          "current": 64,
+          "previous": 64
+        },
+        "workmanship": {
+          "current": 72,
+          "previous": 72
+        }
+      },
+      "build": {
+        "status": 7,
+        "time": "2014-04-18 10:58:32",
+        "debug": true,
+        "release": true
+      },
+      "unit_test": {
+        "status": 7,
+        "total": 152,
+        "passed": 142,
+        "coverage": 0.763
+      },
+      "functional_test": {
+        "status": 7,
+        "total": 6466,
+        "passed": 4312,
+        "coverage": 0.231
+      },
+      "result": {
+        "style": 1,
+        "subtitle": "",
+        "detail": "",
+        "action": ""
+      }
+  },
+    {
+      "id": "99424058",
+      "type": "firewall",
+      "start_time": "2015-03-08 05:08:00",
+      "status": 2,
+      "owner": "MarkusW",
+      "metrics": {
+        "status": 8,
+        "test": {
+          "current": 64,
+          "previous": 50
+        },
+        "maintainability": {
+          "current": 53,
+          "previous": 30
+        },
+        "security": {
+          "current": 64,
+          "previous": 64
+        },
+        "workmanship": {
+          "current": 72,
+          "previous": 72
+        }
+      },
+      "build": {
+        "status": 7,
+        "time": "2014-04-18 10:58:32",
+        "debug": true,
+        "release": true
+      },
+      "unit_test": {
+        "status": 7,
+        "total": 152,
+        "passed": 142,
+        "coverage": 0.763
+      },
+      "functional_test": {
+        "status": 7,
+        "total": 6466,
+        "passed": 4312,
+        "coverage": 0.231
+      },
+      "result": {
+        "style": 1,
+        "subtitle": "",
+        "detail": "",
+        "action": ""
+      }
+  },
+    {
+      "id": "754930",
+      "type": "firewall",
+      "start_time": "2015-08-01 06:53:49",
+      "status": 3,
+      "owner": "tommyAk",
+      "metrics": {
+        "status": 9,
+        "test": {
+          "current": 64,
+          "previous": 70
+        },
+        "maintainability": {
+          "current": 53,
+          "previous": 30
+        },
+        "security": {
+          "current": 64,
+          "previous": 64
+        },
+        "workmanship": {
+          "current": 72,
+          "previous": 72
+        }
+      },
+      "build": {
+        "status": 9,
+        "time": "2014-04-18 10:58:32",
+        "debug": true,
+        "release": true
+      },
+      "unit_test": {
+        "status": 9,
+        "total": 152,
+        "passed": 142,
+        "coverage": 0.763
+      },
+      "functional_test": {
+        "status": 8,
+        "total": 6466,
+        "passed": 4312,
+        "coverage": 0.231
+      },
+      "result": {
+        "style": 2,
+        "subtitle": "",
+        "detail": "Complete",
+        "action": "deployTo"
+      }
+    },
+    {
+      "id": "432691",
+      "type": "firewall",
+      "start_time": "2014-03-13 15:03:00",
+      "status": 4,
+      "owner": "samy",
+      "metrics": {
+        "status": 9,
+        "test": {
+          "current": 64,
+          "previous": 70
+        },
+        "maintainability": {
+          "current": 53,
+          "previous": 30
+        },
+        "security": {
+          "current": 64,
+          "previous": 64
+        },
+        "workmanship": {
+          "current": 72,
+          "previous": 72
+        }
+      },
+      "build": {
+        "status": 10,
+        "time": "2014-04-18 10:58:32",
+        "debug": true,
+        "release": true
+      },
+      "unit_test": {
+        "status": 8,
+        "total": 152,
+        "passed": 142,
+        "coverage": 0.763
+      },
+      "functional_test": {
+        "status": 7,
+        "total": 6466,
+        "passed": 4312,
+        "coverage": 0.231
+      },
+      "result": {
+        "style": 2,
+        "subtitle": "Change Rejected",
+        "detail": "Metrics Reduction",
+        "action": "findIssues"
+      }
+    },
+    {
       "id": "Tenrox-R1_1235",
       "type": "build",
       "start_time": "2014-04-18 10:53:00",
@@ -50,16 +249,15 @@
       }
   },
     {
-      "id": "432691",
-      "type": "firewall",
-      "start_time": "2014-03-13 15:03:00",
-      "status": 4,
-      "owner": "samy",
+      "id": "Phill-55922-EDX3",
+      "type": "build",
+      "start_time": "2010-12-31 23:38:00",
+      "status": 6,
       "metrics": {
         "status": 9,
         "test": {
           "current": 64,
-          "previous": 70
+          "previous": 50
         },
         "maintainability": {
           "current": 53,
@@ -81,73 +279,23 @@
         "release": true
       },
       "unit_test": {
-        "status": 9,
-        "total": 152,
-        "passed": 142,
-        "coverage": 0.763
-      },
-      "functional_test": {
-        "status": 9,
-        "total": 6466,
-        "passed": 4312,
-        "coverage": 0.231
-      },
-      "result": {
-        "style": 2,
-        "subtitle": "Change Rejected",
-        "detail": "Metrics Reduction",
-        "action": "findIssues"
-      }
-    },
-    {
-      "id": "754930",
-      "type": "firewall",
-      "start_time": "2015-08-01 06:53:49",
-      "status": 3,
-      "owner": "tommyAk",
-      "metrics": {
-        "status": 9,
-        "test": {
-          "current": 64,
-          "previous": 70
-        },
-        "maintainability": {
-          "current": 53,
-          "previous": 30
-        },
-        "security": {
-          "current": 64,
-          "previous": 64
-        },
-        "workmanship": {
-          "current": 72,
-          "previous": 72
-        }
-      },
-      "build": {
-        "status": 8,
-        "time": "2014-04-18 10:58:32",
-        "debug": true,
-        "release": true
-      },
-      "unit_test": {
-        "status": 7,
-        "total": 152,
-        "passed": 142,
-        "coverage": 0.763
-      },
-      "functional_test": {
         "status": 10,
+        "total": 152,
+        "passed": 142,
+        "coverage": 0.763
+      },
+      "functional_test": {
+        "status": 7,
         "total": 6466,
         "passed": 4312,
         "coverage": 0.231
       },
       "result": {
-        "style": 2,
-        "subtitle": "",
-        "detail": "Complete",
-        "action": "deployTo"
+        "style": 1,
+        "subtitle": "Change Accepted",
+        "detail": "Auto-Merged",
+        "action": "watchMerge"
       }
-    }
+  }
   ]
 }
