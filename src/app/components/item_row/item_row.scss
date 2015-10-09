@@ -68,12 +68,13 @@
     padding-right: 0.5rem;
     & > * {
       background: $color-gray-20;
-      border: 2px solid;
+      border: 2px solid $color-gray-40;
       border-radius: 0.3rem;
       color: $color-gray-80;
-      min-height: 8rem;
+      min-height: 11rem;
     }
     .title {
+      color: $color-gray-60;
       font-weight: 600;
       margin: 0.3rem 0.3rem 0.8rem 0.3rem;
     }

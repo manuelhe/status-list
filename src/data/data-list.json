@@ -227,7 +227,7 @@
         "status": 9,
         "time": "2014-04-18 10:58:32",
         "debug": true,
-        "release": true
+        "release": false
       },
       "unit_test": {
         "status": 9,
@@ -275,8 +275,8 @@
       "build": {
         "status": 9,
         "time": "2014-04-18 10:58:32",
-        "debug": true,
-        "release": true
+        "debug": false,
+        "release": false
       },
       "unit_test": {
         "status": 10,

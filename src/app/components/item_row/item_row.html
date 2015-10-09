@@ -24,8 +24,9 @@
                widget-metrics
                data-widget="item.metrics">
           </div>
-          <div class="column colspan-3 widget {{ statusCodes[item.build.status].style }}">
-            2
+          <div class="column colspan-3 widget {{ statusCodes[item.build.status].style }}"
+               widget-build
+               data-widget="item.build">
           </div>
           <div class="column colspan-3 widget {{ statusCodes[item.unit_test.status].style }}">
             3
