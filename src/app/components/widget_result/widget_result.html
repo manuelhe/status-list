@@ -1,0 +1,17 @@
+<div class="component--widget-result {{ styles[data.style] }}">
+
+  <div class="info"
+       ng-if="data.subtitle || data.detail">
+    <div>Results:</div>
+    <div class="subtitle"
+         ng-if="data.subtitle">{{ data.subtitle }}</div>
+    <div class="detail"
+         ng-if="data.detail">{{ data.detail }}</div>
+  </div>
+
+  <div class="actions"
+       ng-if="data.action"
+       dynamic-directive="data.action">
+  </div>
+
+</div>

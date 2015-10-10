@@ -93,7 +93,7 @@
         "coverage": 0.231
       },
       "result": {
-        "style": 1,
+        "style": 0,
         "subtitle": "",
         "detail": "",
         "action": ""
@@ -143,10 +143,10 @@
         "coverage": 0.231
       },
       "result": {
-        "style": 2,
+        "style": 3,
         "subtitle": "",
         "detail": "Complete",
-        "action": "deployTo"
+        "action": "deploy"
       }
     },
     {
@@ -193,10 +193,10 @@
         "coverage": 0.231
       },
       "result": {
-        "style": 2,
+        "style": 1,
         "subtitle": "Change Rejected",
         "detail": "Metrics Reduction",
-        "action": "findIssues"
+        "action": "find-issues"
       }
     },
     {
@@ -242,10 +242,10 @@
         "coverage": 0.931
       },
       "result": {
-        "style": 1,
+        "style": 2,
         "subtitle": "Change Accepted",
         "detail": "Auto-Merged",
-        "action": "watchMerge"
+        "action": "watch-merge"
       }
   },
     {
@@ -291,10 +291,10 @@
         "coverage": 0.491
       },
       "result": {
-        "style": 1,
+        "style": 2,
         "subtitle": "Change Accepted",
         "detail": "Auto-Merged",
-        "action": "watchMerge"
+        "action": "watch-merge"
       }
   }
   ]
