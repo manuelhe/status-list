@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('statuslist', ['ngAnimate', 'ui.router']);
+    .module('statuslist', ['ui.router', 'angularRadialgraph']);
 
 }());
